@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<htmL>
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript: Console</title>
+    </head>
+    <body>
+    </body>
+    <div id="hola"></div>
+    <script type="text/javascript">
+        // typeof
+        let num = 20;
+        console.log(typeof num);
+
+        // NaN
+        const notNumber = 2 + "asdfda";
+        console.log(typeof notNumber);
+
+        // isNan()
+        console.log(isNaN(NaN));
+        console.log(isNaN("whatever"));
+        console.log(isNaN("12"));
+        console.log(isNaN(12));
+
+        // toString()
+        let number = 100;
+        console.log(typeof number);
+        console.log(typeof number.toString());
+
+        // .toFixed()
+        console.log(number.toFixed(2));
+    </script>
+</htmL>

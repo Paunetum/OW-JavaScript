@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<htmL>
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript: Console</title>
+    </head>
+    <body>
+    </body>
+    <div id="hola"></div>
+    <script type="text/javascript">
+        /* En un carrito de la compra el usuario ha elegido
+        diferentes productos que debes sumar.
+        Y por ser su primera compra deberias aplicar
+        al total un 10% de descuento.
+
+        Móvil (300€) + Cascos (30€) + Funda (10€)
+        Descuento 10%
+        */
+       const MOBILE_PRICE = 300;
+       const HEADPHONES_PRICE = 30;
+       const CASE_PRICE = 10;
+       const DISCOUNT = 10;
+       const TOTAL = MOBILE_PRICE + HEADPHONES_PRICE + CASE_PRICE;
+       const SUBTOTAL = TOTAL * 10 / 100;
+
+       console.log(SUBTOTAL);
+    </script>
+</htmL>

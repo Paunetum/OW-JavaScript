@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<htmL>
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript: Console</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            /* Es el momento de gestionar cadenas de texto */
+            // Concatenar texto
+            console.log('Hello ' + 'World');
+
+            // Template literals
+            const name = 'Cristina';
+            console.log('Hello ' + name);
+            console.log(`Hello ${name} whathever`);
+
+            // typeof
+            console.log(typeof name);
+
+            // .length
+            console.log(name.length);
+
+            // .includes()
+            console.log(name.includes('Cr'));
+
+
+            // .slice(start, end)
+            console.log(name.slice(2, 5));
+
+            // .replace('este texto', 'por este otro')
+            console.log(name.replace('na', 'asdfas'));
+
+            // .trim()
+            const text = '    as      dfas    a asdfasd a   ';
+            console.log(text.trim());
+
+            // .split(',')
+            const geolocation = 'Calle whatever, 7, 1D';
+            console.log(geolocation.split(','));
+        </script>
+    </body>
+</htmL>
