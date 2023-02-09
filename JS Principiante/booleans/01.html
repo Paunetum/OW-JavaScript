@@ -5,8 +5,19 @@
         <title>Javascript: Console</title>
     </head>
     <body>
+        <div class="block-text"></div>
         <script type="text/javascript">
+            /* Mostrar una información al usuario dependiendo de si está conectado
             
+            Mensaje si no está conectado: Debes registrarte para leer este artículo
+            Mensaje si está conectado: Haz click aquí para ver el contenido*/
+            const USER_LOGGED = false;
+            const BLOCK_TEXT = document.querySelector('.block-text');
+            if (USER_LOGGED) {
+                BLOCK_TEXT.innerHTML = 'Haz click aquí para ver el contenido';
+            } else {
+                BLOCK_TEXT.innerHTML = 'Debes registrarte para leer este artículo'
+            }
         </script>
     </body>
 </htmL>
